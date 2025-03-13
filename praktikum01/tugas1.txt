@@ -1,0 +1,25 @@
+1. Dokumen root merujuk pada folder utama dalam sebuah sistem atau server tempat file-file penting disimpan dan diakses. Dalam konteks web server, ini adalah direktori tempat file situs web disimpan, seperti halaman HTML atau gambar. Misalnya, pada server Apache, dokumen root biasanya berada di /var/www/html. Pada sistem operasi, direktori root adalah folder tertinggi yang mengandung semua subdirektori lainnya.
+
+2. Tidak, dokumen root di Apache tidak harus terletak di C:\xampp\htdocs. Itu adalah lokasi default yang digunakan      oleh XAMPP, tapi kamu bisa mengubahnya sesuai kebutuhan.
+
+Caranya, buka file konfigurasi Apache httpd.conf, lalu ubah pengaturan DocumentRoot dan <Directory> ke direktori yang kamu inginkan. Setelah itu, restart Apache agar perubahan diterapkan.
+
+Jadi, kamu bebas memilih tempat lain untuk menyimpan file website, asalkan Apache dikonfigurasi dengan benar.
+
+3. git init: Membuat repositori Git baru di folder lokal.
+   git clone: Menyalin repositori yang ada (misalnya dari GitHub) ke komputer lokal.
+   git remote: Mengelola repositori remote (misalnya GitHub).
+   git add: Menambahkan perubahan file ke staging area, siap untuk di-commit.
+   git commit: Menyimpan perubahan yang sudah ditambahkan ke staging area ke dalam riwayat commit.
+   git push: Mengirim perubahan dari repositori lokal ke repositori remote.
+   git checkout: Berpindah antar branch atau mengembalikan file ke kondisi sebelumnya.
+
+4. GitHub lebih terkenal, terutama di kalangan pengembang open-source. GitHub memudahkan orang untuk bekerja sama dalam proyek terbuka. Dia juga menyediakan GitHub Actions untuk otomatisasi (CI/CD), meskipun banyak orang merasa GitHub lebih fokus pada kode dan kolaborasi tim dibandingkan fitur pengembangan lainnya.
+
+GitLab, di sisi lain, lebih menawarkan solusi lengkap untuk DevOps—artinya, dari pengembangan, pengujian, sampai pengiriman aplikasi, semuanya bisa dilakukan di satu tempat. GitLab memiliki fitur CI/CD yang lebih terintegrasi dan mendalam, sehingga sangat cocok untuk perusahaan atau tim yang membutuhkan alur kerja yang lebih lengkap.
+
+Selain itu, GitHub adalah milik Microsoft, sementara GitLab adalah perusahaan independen. GitLab juga memberikan opsi untuk hosting di server sendiri (self-hosted), sedangkan GitHub sepenuhnya berbasis cloud.
+
+Jadi, kalau GitHub lebih populer di kalangan proyek open-source dan komunitas, GitLab lebih sering dipakai oleh perusahaan yang membutuhkan sistem manajemen proyek yang lebih kuat dan terintegrasi. 
+
+5. Persamaan antara variabel sistem dan variabel konstanta adalah keduanya digunakan untuk menyimpan nilai yang dapat digunakan di berbagai bagian program atau aplikasi. singkatnya keduanya menyimpan nilai untuk digunakan dalam program, tetapi variabel sistem bisa diubah, sementara variabel konstanta nilainya tetap dan tidak bisa diubah.
